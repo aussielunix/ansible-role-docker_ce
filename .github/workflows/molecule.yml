@@ -9,6 +9,7 @@ on:
   push:
     branches:
       - master
+      - Fix_apt-key_test
   pull_request:
   schedule:
     - cron: '7 4 4 * *'
